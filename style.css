@@ -1,0 +1,27 @@
+body{
+background-color: rgb(165, 135, 226);
+
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid black;
+    border-radius:20px;
+    animation-name: border1;
+    animation-duration: 4s;
+    margin-top:50px;
+    animation-iteration-count: infinite;
+}
+@keyframes border1{
+    from{box-shadow: 1px 1px 500px rgb(0, 47, 255);}
+    to{box-shadow: 1px 1px 500px rgb(0, 128, 111);}
+}
+p{
+    padding-top:10px;
+    font-size: 25px;
+}
+h1{
+    color:indigo;
+
+}
